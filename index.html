@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vishvak Prakkruth — Filmmaker &amp; Creative Director</title>
+<meta name="description" content="Vishvak Prakkruth is a filmmaker and creative director: two independent features, national commercials, music videos and AI-generated brand films. Storyteller and world-builder, working globally and remotely.">
+<link rel="canonical" href="https://prakkruth.com/">
+<meta name="theme-color" content="#0B0B0A">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://prakkruth.com/">
+<meta property="og:title" content="Vishvak Prakkruth — Filmmaker &amp; Creative Director">
+<meta property="og:description" content="Storyteller and world-builder. Features, commercials, music videos and AI-generated brand films.">
+<meta property="og:image" content="https://prakkruth.com/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vishvak Prakkruth — Filmmaker &amp; Creative Director">
+<meta name="twitter:description" content="Storyteller and world-builder. Features, commercials, music videos and AI-generated brand films.">
+<meta name="twitter:image" content="https://prakkruth.com/og.jpg">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/unbounded-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Vishvak Prakkruth","url":"https://prakkruth.com/","jobTitle":"Filmmaker & Creative Director","email":"mailto:v@prakkruth.com","sameAs":["https://www.linkedin.com/in/prakkruth/","https://www.instagram.com/prakkruth/","https://southofsomewhere.studio"]}
+</script>
+<style>
+@font-face{font-family:'Unbounded';font-weight:500;font-display:swap;src:url(assets/fonts/unbounded-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Unbounded';font-weight:800;font-display:swap;src:url(assets/fonts/unbounded-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:'Space Mono';font-weight:400;font-display:swap;src:url(assets/fonts/space-mono-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Space Mono';font-weight:700;font-display:swap;src:url(assets/fonts/space-mono-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'Hanken Grotesk';font-weight:400;font-display:swap;src:url(assets/fonts/hanken-grotesk-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Hanken Grotesk';font-weight:500;font-display:swap;src:url(assets/fonts/hanken-grotesk-latin-500-normal.woff2) format('woff2')}
+
+:root{--bg:#0B0B0A;--bone:#D8D0C5;--muted:#A9A196;--dim:#8D867C;--line:#2A2826}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--bone);font-family:'Hanken Grotesk',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--bone)}a:hover{color:#FFF}
+:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.mono{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.namew{font-family:'Unbounded',sans-serif;font-weight:800;line-height:.92;letter-spacing:-.01em;transition:color .45s ease}
+.outline{color:transparent;-webkit-text-stroke:1.5px var(--bone)}
+.wrap{position:relative;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;overflow-x:hidden}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;padding:14px clamp(16px,4vw,48px);position:relative;z-index:5}
+.navb{background:none;border:0;cursor:pointer;color:var(--muted);font-family:'Space Mono',monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;padding:14px;min-height:44px;text-decoration:none;display:inline-flex;align-items:center;transition:transform .35s cubic-bezier(.2,.8,.2,1),color .2s}
+.navb:hover,.navb[aria-current=page]{color:#FFF}
+.logo{padding:6px 0}
+.logo img{height:42px;width:auto;display:block}
+main{flex:1;width:100%;max-width:1360px;margin:0 auto;padding:0 clamp(16px,4vw,48px);display:flex;flex-direction:column;position:relative;z-index:1}
+.scene{display:none;flex:1;flex-direction:column}
+.scene.on{display:flex}
+.mag{cursor:pointer;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;transition:transform .35s cubic-bezier(.2,.8,.2,1),background-color .25s,color .25s;font-family:'Space Mono',monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:0 32px;min-height:58px}
+.mag .in{display:inline-block;transition:transform .35s cubic-bezier(.2,.8,.2,1);pointer-events:none}
+.solid{background:var(--bone);color:var(--bg);border:1px solid var(--bone)}.solid:hover{background:#FFF;color:var(--bg)}
+.line{background:rgba(11,11,10,.4);color:var(--bone);border:1px solid #5E5952}.line:hover{border-color:var(--bone);color:#FFF}
+.circle{width:176px;height:176px;padding:0}.circle .in{text-align:center;line-height:1.6}
+.scene.on .rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
+.d1{animation-delay:.08s!important}.d2{animation-delay:.18s!important}.d3{animation-delay:.3s!important}.d4{animation-delay:.42s!important}.d5{animation-delay:.54s!important}.d6{animation-delay:.66s!important}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+#wipe{position:fixed;inset:0;z-index:50;background:var(--bone);display:none;align-items:center;justify-content:center;transform:translateY(100%)}
+#wipe span{font-family:'Unbounded',sans-serif;font-weight:800;font-size:clamp(48px,10vw,150px);color:var(--bg)}
+#wipe.in{display:flex;animation:wipein .55s cubic-bezier(.7,0,.3,1) both}
+#wipe.out{display:flex;animation:wipeout .55s cubic-bezier(.7,0,.3,1) both}
+@keyframes wipein{from{transform:translateY(100%)}to{transform:translateY(0)}}
+@keyframes wipeout{from{transform:translateY(0)}to{transform:translateY(-100%)}}
+#homebg{position:absolute;inset:0;z-index:0;pointer-events:none;display:none}
+#homebg.on{display:block}
+#homebg video{width:100%;height:100%;object-fit:cover;opacity:.38}
+#homebg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,11,10,.94) 0%,rgba(11,11,10,.7) 55%,rgba(11,11,10,.35) 100%)}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:56px 32px}
+.flipwrap{perspective:1400px;aspect-ratio:16/9}
+.flipper{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .75s cubic-bezier(.2,.8,.2,1)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden}
+.back{transform:rotateY(180deg);background:var(--bone);color:var(--bg);padding:clamp(18px,2.2vw,30px);overflow:auto}
+.facebtn{display:block;width:100%;height:100%;padding:0;border:0;background:#141312;cursor:pointer;text-align:left;color:var(--bone);font:inherit;position:relative}
+.facebtn video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+.facebtn:hover video{transform:scale(1.04)}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,10,0) 45%,rgba(11,11,10,.88) 100%)}
+.fliphint{position:absolute;top:12px;right:14px;width:32px;height:32px;border-radius:50%;border:1px solid rgba(216,208,197,.6);background:rgba(11,11,10,.45);display:flex;align-items:center;justify-content:center}
+.backgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:28px;height:100%}
+.flipback{background:none;border:1px solid var(--bg);color:var(--bg);cursor:pointer;width:44px;height:44px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center}
+.flipback:hover{background:var(--bg);color:var(--bone)}
+.watch{display:inline-flex;align-items:center;gap:10px;background:var(--bg);color:var(--bone);text-decoration:none;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:0 20px;min-height:46px;border-radius:999px;border:0;cursor:pointer}
+.watch:hover{background:#2A2826;color:#FFF}
+dl{margin:0;display:flex;flex-direction:column;justify-content:center;gap:12px}
+dt{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#5E5952}
+dd{margin:3px 0 0;font-size:15px;line-height:1.45}
+.chip{background:none;border:1px solid #5E5952;color:var(--bone);cursor:pointer;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:0 18px;min-height:44px;border-radius:999px;transition:background-color .2s,color .2s,border-color .2s}
+.chip:hover{border-color:var(--bone)}.chip.on{background:var(--bone);color:var(--bg);border-color:var(--bone)}
+.about{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(32px,6vw,96px);align-items:start;padding:clamp(32px,6vh,72px) 0 80px}
+.range{margin:0;padding:0;list-style:none;border-top:1px solid var(--line)}
+.range li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 20px;padding:14px 0;border-bottom:1px solid var(--line)}
+.range b{font-family:'Unbounded',sans-serif;font-weight:500;font-size:16px}
+.range span{font-size:15px;color:var(--muted)}
+#player{position:fixed;inset:0;z-index:60;background:rgba(11,11,10,.96);display:none;align-items:center;justify-content:center;padding:clamp(16px,4vw,64px)}
+#player.on{display:flex}
+#player .box{width:min(1200px,100%);display:flex;flex-direction:column;gap:14px}
+#player .frame{position:relative;width:100%;aspect-ratio:16/9;background:#000}
+#player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+#player .bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+#player .x{background:none;border:1px solid #5E5952;color:var(--bone);border-radius:999px;cursor:pointer;min-height:44px;padding:0 20px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+#player .x:hover{border-color:var(--bone)}
+.hidesm{}
+@media (max-width:860px){.about{grid-template-columns:minmax(0,1fr)}.hidesm{display:none}.cards{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:600px){.flipwrap{aspect-ratio:4/5}.backgrid{grid-template-columns:minmax(0,1fr);gap:14px}.circle{width:150px;height:150px}}
+@media (prefers-reduced-motion:reduce){.scene.on .rise,#wipe.in,#wipe.out{animation:none}.mag,.mag .in,.navb,.flipper,.facebtn video{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div id="homebg" class="on" aria-hidden="true"><video src="media/home-bg.mp4" poster="media/home-bg.jpg" autoplay muted loop playsinline preload="auto"></video></div>
+
+  <header>
+    <a class="navb logo" href="#" data-go="home" aria-label="Vishvak Prakkruth, home"><img src="media/vp-mark.png" alt="" width="216" height="240"></a>
+    <nav aria-label="Main">
+      <a class="navb magnet" data-k="0.6" href="#work" data-go="work">Work</a>
+      <a class="navb magnet" data-k="0.6" href="#about" data-go="about">About</a>
+      <a class="navb magnet" data-k="0.6" href="#contact" data-go="contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="scene on" id="s-home" aria-label="Home">
+      <div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:40px;padding:clamp(40px,8vh,96px) 0">
+        <h1 id="name" style="margin:0;display:flex;flex-direction:column;cursor:default;font-weight:inherit">
+          <span id="n1" class="namew outline rise d1" style="font-size:clamp(40px,11.5vw,168px)">VISHVAK</span>
+          <span id="n2" class="namew rise d2" style="font-size:clamp(40px,11.5vw,168px);-webkit-text-stroke:1.5px var(--bone)">PRAKKRUTH</span>
+        </h1>
+        <div class="rise d3" style="display:flex;flex-wrap:wrap;gap:16px 48px;align-items:baseline">
+          <span style="font-family:'Space Mono',monospace;font-size:clamp(16px,1.7vw,22px)">Filmmaker | Creative Director</span>
+          <span style="font-size:clamp(17px,1.6vw,21px);color:var(--muted)">Storyteller and world-builder.</span>
+        </div>
+        <div class="rise d4" style="display:flex;flex-wrap:wrap;gap:14px">
+          <a class="mag solid magnet" href="#work" data-go="work"><span class="in">See the work</span></a>
+          <a class="mag line magnet" href="#contact" data-go="contact"><span class="in">Say hello</span></a>
+        </div>
+      </div>
+      <div class="mono" style="display:flex;justify-content:space-between;padding:0 0 22px;color:var(--dim)">
+        <span>Global · Remote</span><span class="hidesm">Hover the name</span>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="scene" id="s-work" aria-label="Selected work">
+      <div style="padding:clamp(32px,6vh,64px) 0 40px;display:flex;flex-direction:column;gap:36px">
+        <div class="rise" style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px">
+          <h2 class="namew outline" style="margin:0;font-size:clamp(40px,7vw,108px)">SELECTED <span style="color:var(--bone)">WORK</span></h2>
+          <span class="mono" style="color:var(--dim)">Tap a card to flip it</span>
+        </div>
+        <div class="cards" id="cards"></div>
+      </div>
+
+      <div style="padding:72px 0 56px;display:flex;flex-direction:column;gap:28px">
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px">
+          <h2 class="namew outline" style="margin:0;font-size:clamp(40px,6.5vw,96px)">REEL</h2>
+          <span class="mono" style="color:var(--dim)">Human Emotion × Machine Intelligence · 55 sec</span>
+        </div>
+        <video id="reel" src="media/reel.mp4" poster="media/reel-poster.jpg" controls playsinline preload="none" style="width:100%;aspect-ratio:16/9;display:block;background:#000"></video>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+          <span class="mono" style="color:var(--dim);margin-right:8px">Jump to</span>
+          <button class="chip" data-t="0"><span style="opacity:.6">01</span> Films <span style="opacity:.6">0:00</span></button>
+          <button class="chip" data-t="16"><span style="opacity:.6">02</span> Brands <span style="opacity:.6">0:16</span></button>
+          <button class="chip" data-t="33"><span style="opacity:.6">03</span> AI <span style="opacity:.6">0:33</span></button>
+        </div>
+      </div>
+
+      <div style="padding:24px 0 96px;display:flex;justify-content:flex-end">
+        <a class="mag line magnet" href="#contact" data-go="contact"><span class="in">Make something with me</span></a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="scene" id="s-about" aria-label="About">
+      <div class="about">
+        <div class="rise"><img src="media/portrait.jpg" alt="Portrait of Vishvak Prakkruth" width="730" height="898" loading="lazy" style="width:100%;height:auto;display:block"></div>
+        <div style="display:flex;flex-direction:column;gap:30px">
+          <div class="rise d1" style="display:flex;flex-direction:column">
+            <h2 style="margin:0;display:flex;flex-direction:column;font-weight:inherit">
+              <span class="namew" style="font-size:clamp(36px,5vw,76px);color:transparent;-webkit-text-stroke:1.2px var(--bone)">VISHVAK</span>
+              <span class="namew" style="font-size:clamp(36px,5vw,76px)">PRAKKRUTH</span>
+            </h2>
+            <span style="font-family:'Space Mono',monospace;font-size:17px;margin-top:14px">Filmmaker | Creative Director</span>
+          </div>
+          <div class="rise d2" style="display:flex;flex-direction:column;gap:16px;max-width:580px">
+            <p style="margin:0;font-size:clamp(19px,1.7vw,23px);line-height:1.5;color:#E8E2D9">I've been a storyteller and world-builder for as long as I can remember: curious about people, places, and what imagination can do with them.</p>
+            <p style="margin:0;font-size:17px;line-height:1.7;color:var(--muted)">Fifteen years across Mumbai, New York and Los Angeles, making commercials, independent features, documentary, music videos and digital-first content, usually from first idea to final cut. I've taught at the New York Film Academy and led crews in studios and classrooms. Now I run South of Somewhere, pairing human creative direction with AI-driven production.</p>
+          </div>
+          <div class="rise d3" style="display:flex;flex-direction:column;gap:10px">
+            <span class="mono" style="color:var(--dim)">Range</span>
+            <ul class="range">
+              <li><b>Direction / Cinematography</b><span>Features · Commercials · Documentary · Music Videos</span></li>
+              <li><b>Creative Direction</b><span>Brand Films · Content &amp; Social · Fashion · Campaigns</span></li>
+              <li><b>AI-Native Production</b><span>Workflows · Tools · Studio Systems</span></li>
+              <li><b>Teaching &amp; Teams</b><span>NYFA Los Angeles · Studio Crews</span></li>
+            </ul>
+          </div>
+          <p class="rise d4" style="margin:0;font-size:14px;line-height:1.8;color:var(--dim);max-width:580px">O-1B visa for extraordinary ability in the arts, granted twice · Rose Grant, top graduate, Digital Film Academy NY · Full scholarship, Hochschule Bremen · Works in English, Tamil, Hindi, Telugu, German and Sanskrit</p>
+          <div class="rise d5" style="display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center">
+            <a class="mag solid magnet" href="#contact" data-go="contact"><span class="in">Work with me</span></a>
+            <a href="media/Vishvak_Prakkruth_CV.pdf" download style="font-family:'Space Mono',monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;padding:12px 0">Download CV ↓</a>
+          </div>
+          <span class="mono rise d6" style="color:#6F6A62">Open to roles, commissions and collaborations · remote or relocating</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="scene" id="s-contact" aria-label="Contact">
+      <div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:48px;padding:clamp(40px,8vh,96px) 0">
+        <h2 class="namew rise d1" style="margin:0;font-size:clamp(52px,10vw,150px)">SAY<br><span class="outline">HELLO.</span></h2>
+        <div class="rise d2" style="display:flex;flex-wrap:wrap;gap:24px;align-items:center">
+          <a class="mag solid magnet circle" data-k="0.8" href="mailto:v@prakkruth.com"><span class="in">Write<br>to me</span></a>
+          <a class="mag line magnet circle" data-k="0.8" href="https://www.linkedin.com/in/prakkruth/" target="_blank" rel="noopener"><span class="in">Connect<br>on LinkedIn</span></a>
+          <a class="mag line magnet circle" data-k="0.8" href="https://www.instagram.com/prakkruth/" target="_blank" rel="noopener"><span class="in">Follow me<br>on Instagram</span></a>
+        </div>
+        <div class="rise d3" style="display:flex;flex-direction:column;gap:6px">
+          <a href="mailto:v@prakkruth.com" style="font-family:'Space Mono',monospace;font-size:clamp(17px,2vw,24px);text-decoration:none">v@prakkruth.com</a>
+          <span style="font-size:16px;color:var(--dim)">Films, brand work, collaborations and roles.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="wipe" aria-hidden="true"><span></span></div>
+
+  <div id="player" role="dialog" aria-modal="true" aria-label="Video player">
+    <div class="box">
+      <div class="frame"><iframe title="Video" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="bar">
+        <span class="mono" id="ptitle" style="color:var(--muted)"></span>
+        <span style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="x" id="pext" href="#" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;text-decoration:none">Open original ↗</a>
+          <button class="x" id="pclose">Close ✕</button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<noscript><p style="padding:24px;color:#D8D0C5">Vishvak Prakkruth — Filmmaker &amp; Creative Director. <a href="mailto:v@prakkruth.com">v@prakkruth.com</a></p></noscript>
+
+<script>
+const CARDS = [
+  {title:'Feature Films', kind:'Narrative · 2019 / 2022', loop:'c-features',
+   context:'Two independent features: Heartbreak Hotel and Cactus Flower.',
+   did:'Wrote and directed both. Made Cactus Flower with a self-contained, one-person crew.',
+   outcome:'Long-form craft, delivered start to finish without a studio behind it.',
+   href:'https://vimeo.com/showcase/12472762', embed:'https://vimeo.com/showcase/12472762/embed?autoplay=1', cta:'Watch trailers'},
+  {title:'Metro & Mochi', kind:'National commercials · 2016', loop:'c-metro',
+   context:'Two commercials for sister footwear brands.',
+   did:'Directed both, pairing big-campaign craft with digital-first production.',
+   outcome:'Made for in-store screens, then released in cinemas across India.',
+   href:'https://vimeo.com/showcase/12472760', embed:'https://vimeo.com/showcase/12472760/embed?autoplay=1', cta:'Watch'},
+  {title:'myAIcademy', kind:'AI-generated launch films · 2026', loop:'c-myai',
+   context:'An AI-fluency learning platform, getting ready to launch.',
+   did:'Made two AI-generated films for it: the brand film and the product video.',
+   outcome:'Used to launch the platform to investors and the public.',
+   href:'https://www.youtube.com/watch?v=APgzgOCbHWA', embed:'https://www.youtube-nocookie.com/embed/APgzgOCbHWA?autoplay=1&rel=0', cta:'Watch'},
+  {title:'South of Somewhere', kind:'AI-generated brand films · 2025', loop:'c-penguin',
+   context:'The AI-native creative studio I founded.',
+   did:'Made two AI-generated brand films carrying the same philosophy and mission in contrasting ways: one with penguins, one with people and nature.',
+   outcome:"Both carried the studio's story and philosophy clearly, in two different voices.",
+   href:'https://southofsomewhere.studio', cta:'Visit the studio'},
+  {title:'Gangsta Gudiya', kind:'Parody music IP · 2015', loop:'c-gg2',
+   context:'A song two friends improvised at a party.',
+   did:'Directed the first video, then built a fast-turnaround system for regular releases.',
+   outcome:"Launched India's first parody-music channel on YouTube, covered by national and global press.",
+   href:'https://www.youtube.com/@GangstaGudiya/videos', cta:'Visit the channel'},
+  {title:'Retrograde', kind:'Music videos for Sundara · 2021', loop:'c-retro',
+   context:"Sundara's debut album: every track its own story, all tied together by one emotion.",
+   did:'Designed a production system for an indie process that held one cinematic tone across the series.',
+   outcome:"Four music videos with a shared visual language, and a repeatable framework for the artist's storytelling.",
+   href:'https://www.youtube.com/watch?v=wXerIJ1cpZA', embed:'https://www.youtube-nocookie.com/embed/wXerIJ1cpZA?autoplay=1&rel=0', cta:'Watch'}
+];
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const FLIP_ICON = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#D8D0C5" stroke-width="1.6" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg>';
+const BACK_ICON = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 14L4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-3"/></svg>';
+const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+document.getElementById('cards').innerHTML = CARDS.map((c, i) => `
+  <div class="flipwrap rise d${Math.min(i + 1, 6)}">
+    <div class="flipper">
+      <div class="face">
+        <button class="facebtn" data-flip aria-label="${esc(c.title)}, ${esc(c.kind)}. Flip for details">
+          <video src="media/${c.loop}.mp4" poster="media/${c.loop}.jpg" muted loop playsinline preload="metadata" aria-hidden="true"></video>
+          <span class="shade"></span>
+          <span class="mono" style="position:absolute;top:16px;left:18px">${String(i + 1).padStart(2, '0')}</span>
+          <span class="fliphint">${FLIP_ICON}</span>
+          <span style="position:absolute;left:18px;right:18px;bottom:18px;display:flex;flex-direction:column;gap:6px">
+            <span style="font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(19px,1.7vw,25px);line-height:1.15;color:#F2EDE6">${esc(c.title)}</span>
+            <span class="mono" style="color:#CFC7BB">${esc(c.kind)}</span>
+          </span>
+        </button>
+      </div>
+      <div class="face back">
+        <div class="backgrid">
+          <div style="display:flex;flex-direction:column;justify-content:space-between;gap:16px">
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <span class="mono" style="color:#5E5952">${esc(c.kind)}</span>
+              <h3 style="margin:0;font-family:'Unbounded',sans-serif;font-weight:500;font-size:clamp(19px,1.8vw,26px);line-height:1.15">${esc(c.title)}</h3>
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+              ${c.embed
+                ? `<button class="watch" data-play="${i}">${esc(c.cta)} <span aria-hidden="true">▶</span></button>`
+                : `<a class="watch" href="${c.href}" target="_blank" rel="noopener">${esc(c.cta)} <span aria-hidden="true">↗</span></a>`}
+              <button class="flipback" data-flip aria-label="Flip card back">${BACK_ICON}</button>
+            </div>
+          </div>
+          <dl>
+            <div><dt>Context</dt><dd>${esc(c.context)}</dd></div>
+            <div><dt>What I did</dt><dd>${esc(c.did)}</dd></div>
+            <div><dt>Outcome</dt><dd>${esc(c.outcome)}</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>`).join('');
+
+/* Card loops: only play while on screen */
+const loops = [...document.querySelectorAll('.facebtn video')];
+const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting && !reduce) e.target.play().catch(() => {}); else e.target.pause();
+}), { threshold: 0.25 }) : null;
+loops.forEach(v => io ? io.observe(v) : (!reduce && v.play().catch(() => {})));
+
+/* Flip + tilt */
+document.querySelectorAll('.flipwrap').forEach(w => {
+  const f = w.querySelector('.flipper'); let flipped = false, tx = 0, ty = 0;
+  const front = w.querySelector('.face:not(.back)'), back = w.querySelector('.back');
+  const apply = () => {
+    f.style.transform = `rotateX(${-ty}deg) rotateY(${(flipped ? 180 : 0) + tx}deg)`;
+    front.inert = flipped; back.inert = !flipped;
+  };
+  back.inert = true;
+  w.querySelectorAll('[data-flip]').forEach(b => b.addEventListener('click', () => {
+    flipped = !flipped; apply();
+    setTimeout(() => (flipped ? back.querySelector('.watch') : front.querySelector('.facebtn'))?.focus({ preventScroll: true }), 50);
+  }));
+  if (!reduce && matchMedia('(hover: hover)').matches) {
+    w.addEventListener('mousemove', e => { const r = w.getBoundingClientRect(); tx = ((e.clientX - r.left) / r.width - .5) * 12; ty = ((e.clientY - r.top) / r.height - .5) * 12; apply(); });
+    w.addEventListener('mouseleave', () => { tx = ty = 0; apply(); });
+  }
+});
+
+/* Video player overlay */
+const player = document.getElementById('player'), pframe = player.querySelector('iframe');
+const pext = document.getElementById('pext'), ptitle = document.getElementById('ptitle');
+let lastFocus = null;
+function openPlayer(c) {
+  lastFocus = document.activeElement;
+  pframe.src = c.embed; pext.href = c.href; ptitle.textContent = c.title;
+  player.classList.add('on'); document.body.style.overflow = 'hidden';
+  document.getElementById('pclose').focus();
+}
+function closePlayer() {
+  player.classList.remove('on'); pframe.src = 'about:blank'; document.body.style.overflow = '';
+  lastFocus && lastFocus.focus();
+}
+document.addEventListener('click', e => { const b = e.target.closest('[data-play]'); if (b) openPlayer(CARDS[+b.dataset.play]); });
+document.getElementById('pclose').addEventListener('click', closePlayer);
+player.addEventListener('click', e => { if (e.target === player) closePlayer(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && player.classList.contains('on')) closePlayer(); });
+
+/* Reel chapters */
+const reel = document.getElementById('reel'), chips = [...document.querySelectorAll('.chip')];
+chips.forEach(c => c.addEventListener('click', () => { reel.currentTime = +c.dataset.t; reel.muted = false; reel.play().catch(() => {}); }));
+reel.addEventListener('timeupdate', () => { const t = reel.currentTime, i = t >= 33 ? 2 : t >= 16 ? 1 : 0; chips.forEach((c, k) => c.classList.toggle('on', k === i)); });
+
+/* Magnetic buttons (pointer devices only) */
+if (!reduce && matchMedia('(hover: hover)').matches) {
+  document.querySelectorAll('.magnet').forEach(b => {
+    const k = parseFloat(b.dataset.k || 1), inner = b.querySelector('.in');
+    b.addEventListener('mousemove', e => {
+      const r = b.getBoundingClientRect();
+      const x = (e.clientX - r.left - r.width / 2) * 0.35 * k, y = (e.clientY - r.top - r.height / 2) * 0.35 * k;
+      b.style.transform = `translate(${x}px,${y}px)`; if (inner) inner.style.transform = `translate(${x * .5}px,${y * .5}px)`;
+    });
+    b.addEventListener('mouseleave', () => { b.style.transform = ''; if (inner) inner.style.transform = ''; });
+  });
+}
+
+/* Name swap on hover */
+const nm = document.getElementById('name'), n1 = document.getElementById('n1'), n2 = document.getElementById('n2');
+nm.addEventListener('mouseenter', () => { n1.style.color = 'var(--bone)'; n2.style.color = 'transparent'; });
+nm.addEventListener('mouseleave', () => { n1.style.color = 'transparent'; n2.style.color = 'var(--bone)'; });
+
+/* Pages + wipe, with #hash URLs so links and the back button work */
+const LABELS = { home: 'INDEX', work: 'WORK', about: 'ABOUT', contact: 'HELLO' };
+const TITLES = { home: 'Vishvak Prakkruth — Filmmaker & Creative Director', work: 'Selected Work — Vishvak Prakkruth', about: 'About — Vishvak Prakkruth', contact: 'Contact — Vishvak Prakkruth' };
+const homebg = document.querySelector('#homebg video');
+let current = null, busy = false;
+const wipe = document.getElementById('wipe');
+const sceneFromHash = () => { const h = location.hash.slice(1); return LABELS[h] && h !== 'home' ? h : 'home'; };
+function show(scene) {
+  document.querySelectorAll('.scene').forEach(s => s.classList.toggle('on', s.id === 's-' + scene));
+  document.querySelectorAll('nav .navb').forEach(b => b.dataset.go === scene ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
+  document.getElementById('homebg').classList.toggle('on', scene === 'home');
+  if (scene === 'home' && !reduce) homebg.play().catch(() => {}); else homebg.pause();
+  if (scene !== 'work') reel.pause();
+  document.title = TITLES[scene];
+  window.scrollTo(0, 0);
+  current = scene;
+}
+function go(scene) {
+  if (scene === current || busy) return;
+  if (reduce) { show(scene); return; }
+  busy = true;
+  wipe.querySelector('span').textContent = LABELS[scene];
+  wipe.className = 'in';
+  setTimeout(() => { show(scene); wipe.className = 'out'; }, 560);
+  setTimeout(() => { wipe.className = ''; busy = false; }, 1120);
+}
+document.querySelectorAll('[data-go]').forEach(b => b.addEventListener('click', e => {
+  e.preventDefault();
+  const s = b.dataset.go;
+  history.pushState(null, '', s === 'home' ? location.pathname : '#' + s);
+  go(s);
+}));
+window.addEventListener('popstate', () => go(sceneFromHash()));
+show(sceneFromHash());
+</script>
+</body>
+</html>
